@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Header from "$lib/components/Header.svelte";
+	import DisplayData from "$lib/components/DisplayData.svelte";
+	import ToggleUnitsButton from "$lib/components/ToggleUnitsButton.svelte";
+</script>
+
+<Header />
+<DisplayData />
+<ToggleUnitsButton />
